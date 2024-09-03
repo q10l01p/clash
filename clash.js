@@ -367,10 +367,10 @@ function main(config) {
       "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyGFW.list",
       "path": "./rules/ProxyGFW.list"
     },
-    "ProxyGFW": {
+    "Scholar": {
       ...ruleProviderCommon,
       "behavior": "classical",
-      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Rules/Reject.list",
+      "url": "https://gist.githubusercontent.com/yippp/4f87ecc4ecaf4b7594a734ccd13b24fd/raw/ffae8e87f78880c0386c6632ab8f76711447a61a/Scholar.list",
       "path": "./rules/ProxyGFW.list"
     },
     "China": {
@@ -388,6 +388,7 @@ function main(config) {
     "RULE-SET,Apple,苹果服务",
     "RULE-SET,YouTube,谷歌服务",
     "RULE-SET,Google,谷歌服务",
+    "RULE-SET,Scholar,谷歌学术",
     "RULE-SET,Telegram,电报消息",
     "RULE-SET,Twitter,推特消息",
     "RULE-SET,Steam,游戏平台",
