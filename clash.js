@@ -247,6 +247,12 @@ function main(config) {
       "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/Reject.list",
       "path": "./rules/AD.list"
     },
+    "Scholar": {
+      ...ruleProviderCommon,
+      "behavior": "classical",
+      "url": "https://gist.githubusercontent.com/yippp/4f87ecc4ecaf4b7594a734ccd13b24fd/raw/ffae8e87f78880c0386c6632ab8f76711447a61a/Scholar.list",
+      "path": "./rules/ProxyGFW.list"
+    },
     "Apple": {
       ...ruleProviderCommon,
       "behavior": "classical",
@@ -365,12 +371,6 @@ function main(config) {
       ...ruleProviderCommon,
       "behavior": "classical",
       "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyGFW.list",
-      "path": "./rules/ProxyGFW.list"
-    },
-    "Scholar": {
-      ...ruleProviderCommon,
-      "behavior": "classical",
-      "url": "https://gist.githubusercontent.com/yippp/4f87ecc4ecaf4b7594a734ccd13b24fd/raw/ffae8e87f78880c0386c6632ab8f76711447a61a/Scholar.list",
       "path": "./rules/ProxyGFW.list"
     },
     "China": {
