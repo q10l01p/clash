@@ -538,7 +538,7 @@ function overwriteProxyGroups(params) {
     },
   ];
 
-  const websiteSpecificAutoGroups = ["Shared Chat", "Steam", "Telegram", "ChatGPT", "Claude", "Spotify", "Google", "Microsoft", "Linux Do"].flatMap(groupName => {
+  const websiteSpecificAutoGroups = ["Shared Chat", "Steam", "Telegram", "ChatGPT", "Claude", "Spotify", "Google", "Microsoft", "Linux Do", "漏网之鱼"].flatMap(groupName => {
     return [
       {
         name: `ALL - 自动选择 - ${groupName}`,
